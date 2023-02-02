@@ -1,0 +1,234 @@
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+#Contact {
+  Padding: 5rem 0;
+  Background: Rgb(226, 226, 226);
+}
+
+.Contact-Container {
+  Display: Flex;
+  Background: #101010;
+}
+
+.Contact-Img {
+  Width: 50%;
+}
+
+.Contact-Img Img {
+  Display: Block;
+  Height: 400px;
+  Width: 100%;
+  Object-Position: Center;
+  Object-Fit: Cover;
+}
+
+.Form-Container {
+  Padding: 1rem;
+  Width: 50%;
+  Margin: Auto;
+  border-radius: 10px;
+}
+
+.Form-Container Input {
+  Display: Block;
+  Width: 100%;
+  Border: None;
+  Border-Bottom: 2px Solid #Ddd;
+  Padding: 1rem 0;
+  Box-Shadow: None;
+  Outline: None;
+  Margin-Bottom: 1rem;
+  Color: #023020;
+  Font-Weight: 500;
+
+}
+
+.Form-Container Textarea {
+  Display: Block;
+  Width: 100%;
+  Border: None;
+  Border-Bottom: 2px Solid #Ddd;
+  Color: #444;
+  Outline: None;
+  Padding: 1rem 0;
+  Resize: None;
+}
+
+.Form-Container H2 {
+  Font-Size: 2.7rem;
+  Font-Weight: 500;
+  Color: white;
+  Margin-Bottom: 1rem;
+  Margin-Top: -1.2rem;
+}
+
+.Form-Container A {
+  Font-Size: 1.3rem;
+}
+
+
+section,
+footer {
+  padding: 2rem 4rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.column {
+  width: 100%;
+  text-align: center;
+}
+.section-desc {
+  text-align: center;
+  margin: 2rem 0 6rem 0;
+}
+h1 {
+    font-size: 38px;
+    color: #fff;
+    margin-bottom: 2rem;
+    word-spacing: 1rem;
+    line-height: 1.6;
+}
+h2 {
+    font-size: 3.2rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+h4 {
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+}
+p, button {
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 1.8;
+    font-weight: 400;
+
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 3rem 5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+nav a {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+nav a#logo span{
+    color: lightgreen;
+}
+nav ul a {
+  color: #fff;
+}
+nav ul a span{
+  color: lightgreen;
+}
+
+
+#ham-menu {
+  display: none;
+}
+nav ul.active {
+  left: 0;
+}
+
+
+nav ul a:hover {
+  color: lightgreen;
+}
+
+
+.banner{
+  background-image: url(1.webp);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  letter-spacing: 0px;
+
+
+}
+section.banner {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  align-items: center;
+}
+.content-area p {
+  text-align: justify;
+}
+.btn-container {
+  display: flex;
+  gap: 3rem;
+}
+
+#work {
+    background: #080808;
+}
+.work .row {
+  align-items: stretch;
+}
+.work .column {
+  padding: 6rem 2rem;
+  border-radius: 1rem;
+}
+.work .column p {
+  text-align: center;
+}
+.work h3 {
+  margin: 3rem 0;
+}
+.work i {
+  text-align: center;
+  font-size: 5rem;
+  color: #ffffff;
+}
+.work .column:hover {
+    background-color: darkgreen;
+}
+.work .column:hover h3 {
+  color: #ffffff;
+}
+.work .column:hover p {
+  color: #d7e1f3;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,267 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+
+section,
+footer {
+  padding: 2rem 4rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.column {
+  width: 100%;
+  text-align: center;
+}
+.section-desc {
+  text-align: center;
+  margin: 2rem 0 6rem 0;
+}
+h1 {
+    font-size: 38px;
+    color: #fff;
+    margin-bottom: 2rem;
+    word-spacing: 1rem;
+    line-height: 1.6;
+}
+h2 {
+    font-size: 3.2rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+h4 {
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+}
+p, button {
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 1.8;
+    font-weight: 400;
+}
+.btn {
+  background-color: transparent;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 2rem 0;
+}
+.primary-btn {
+    background-color: tomato;
+    color: #fff;
+}
+.secondary-btn {
+    border: 0.3rem solid tomato;
+    color: #fff;
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 3rem 5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+nav a {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+nav a#logo span{
+    color: tomato;
+}
+nav ul a {
+  color: #fff;
+}
+nav ul a span{
+  color: tomato;
+}
+
+
+#ham-menu {
+  display: none;
+}
+nav ul.active {
+  left: 0;
+}
+
+
+nav ul a:hover {
+  color: tomato;
+}
+
+
+.banner{
+  background-image: url(p.webp);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+
+}
+section.banner {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  align-items: center;
+}
+.content-area p {
+  text-align: justify;
+}
+.btn-container {
+  display: flex;
+  gap: 3rem;
+}
+
+#work {
+    background: #080808;
+}
+.work .row {
+  align-items: stretch;
+}
+.work .column {
+  padding: 6rem 2rem;
+  border-radius: 1rem;
+}
+.work .column p {
+  text-align: center;
+}
+.work h3 {
+  margin: 3rem 0;
+}
+.work i {
+  text-align: center;
+  font-size: 5rem;
+  color: #ffffff;
+}
+.work .column:hover {
+    background-color: tomato;
+}
+.work .column:hover h3 {
+  color: #ffffff;
+}
+.work .column:hover p {
+  color: #d7e1f3;
+}
+
+
+#services {
+    background: #000;
+}
+.services .row {
+  align-items: stretch;
+}
+.services .column {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+#services h3 {
+    margin-top: 30px;
+}
+.services .column > *:not(img) {
+  padding: 0 2rem;
+}
+.services .column img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+.services .column p {
+  text-align: center;
+  flex-grow: 1;
+}
+.services-btn {
+  display: flex;
+  justify-content: center;
+}
+.services-btn .btn:hover {
+    color: #ffffff;
+    background-color: tomato;
+}
+
+
+footer {
+  background-color: #080808;
+}
+footer h3 {
+  margin: 0;
+}
+#contact h3 span {
+    color: #ff044f;
+}
+footer h3,
+footer h4 {
+  color: #ffffff;
+  text-align: center;
+}
+footer .row {
+  margin-bottom: 6rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+
+
+
+#section-a{
+  padding:20px;
+  background:#023020;
+  color:#fff;
+  text-align:center;
+}
+
+#section-b{
+  padding:20px;
+  background:#f4f4f4;
+  text-align:center;
+}
+
+#section-c{
+  display:flex;
+}
+
+#section-c div{
+  padding:20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+  background:#926239;
+  color:#fff;
+}
+
+#section-c .box-2{
+  background:#f9f9f9;
+}
